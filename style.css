@@ -1,0 +1,125 @@
+body {
+  color: white;
+  font-family: 'Dogica Pixel';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+.link {
+  color: white;
+  font-family: 'Dogica Pixel';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+.link::selection {
+  background: white;
+  color: #00FF00;
+}
+.link::-moz-selection {
+  background: white;
+  color: #00FF00;
+}
+.puzzle {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.socials {
+  position: fixed;
+  top: 64px;
+  right: 64px;
+}
+.puzzle {
+  width: 200px;
+}
+.puzzle-large {
+  width: 300px;
+}
+.nav {
+  border-collapse: collapse;
+}
+.nav-element {
+  border: solid;
+  border-color: white;
+  border-width: 0 1px;
+}
+.nav-element:first-child {
+  border-left: none;
+}
+.nav-element:last-child {
+  border-right: none;
+}
+.container {
+  margin: auto;
+  width: 45%;
+  text-align: center;
+}
+.subheader {
+  margin: auto;
+  text-align: center;
+}
+a {
+  color: white;
+  font-family: 'Dogica Pixel';
+  font-weight: normal;
+  font-style: normal;
+}
+li {
+  list-style-position: inside;
+}
+.empty {
+  width: 200px;
+}
+.faq-container {
+  margin: auto;
+  text-align: left;
+  line-height: 1.5;
+  width: 60%;
+}
+.faq-list-question {
+  color: white;
+}
+.faq-list-answer {
+  color: #00FF00;
+}
+.regular-link {
+  color: #00FF00;
+  font-family: 'Dogica Pixel';
+  font-weight: normal;
+  font-style: normal;
+}
+.creator-tested {
+  color: #00FF00;
+  font-family: 'Dogica Pixel';
+  font-weight: normal;
+  font-style: normal;
+  margin: auto;
+  text-align: center;
+}
+.community-tested {
+  color: #00FF00;
+  font-family: 'Dogica Pixel';
+  font-weight: normal;
+  font-style: normal;
+  margin: auto;
+  text-align: center;
+}
+.untested {
+  color: white;
+  font-family: 'Dogica Pixel';
+  font-weight: normal;
+  font-style: normal;
+  margin: auto;
+  text-align: center;
+}
+.green-text {
+  color: #00FF00;
+}
+.footer {
+  color: white;
+  margin: auto;
+  text-align: center;
+}
